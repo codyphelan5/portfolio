@@ -138,7 +138,7 @@ quiz = {
         "answer": "",
     },
     20: {
-        "question": "A penetration tester has been hired to perform an assessment on the *greatadministrator.com* site. He used the nslookup command to perform some reconnaissance and received the following output:\nC: \>nslookup -querytype=mx greatadministrator.com\nServer: Unknown\nAddress: 192.168.1.1\nNon-authoritative answer:\ngcgapremium.com MX preference = 20, mail exchanger = mk1.emailsrvr.com\ngcgapremium.com MX preference = 90, mail exchanger = mx2.emailsrvr.com\n\nOf the following choices, what BEST describes this output?",
+        "question": "A penetration tester has been hired to perform an assessment on the *greatadministrator.com* site. He used the nslookup command to perform some reconnaissance and received the following output:\nC: \\>nslookup -querytype=mx greatadministrator.com\nServer: Unknown\nAddress: 192.168.1.1\nNon-authoritative answer:\ngcgapremium.com MX preference = 20, mail exchanger = mk1.emailsrvr.com\ngcgapremium.com MX preference = 90, mail exchanger = mx2.emailsrvr.com\n\nOf the following choices, what BEST describes this output?",
         "choices": ("The server named *mx2.emailsrvr.com* is the primary email server for this domain.", "The server named *mx1.emailsrvr.com* is the primary email server for this domain.", "The AAAA record is misconfigured for this domain.", "The SOA record is hiding the IP address of the domain."),
         "correct_answer": "B",
         "answer": "",
